@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-17T11:28:10 IST" name="Default suite" finished-at="2024-01-17T11:28:27 IST" duration-ms="17018">
+    <groups>
+    </groups>
+    <test started-at="2024-01-17T11:28:10 IST" name="Default test" finished-at="2024-01-17T11:28:27 IST" duration-ms="17018">
+      <class name="com.ninjademo.qa.tests.TestProductPage">
+        <test-method is-config="true" signature="InitializeExtentReport()[pri:0, instance:com.ninjademo.qa.tests.TestProductPage@303cf2ba]" started-at="2024-01-17T11:28:09 IST" name="InitializeExtentReport" finished-at="2024-01-17T11:28:10 IST" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeExtentReport -->
+        <test-method is-config="true" signature="getNameMethod(org.testng.ITestContext)[pri:0, instance:com.ninjademo.qa.tests.TestProductPage@303cf2ba]" started-at="2024-01-17T11:28:10 IST" name="getNameMethod" finished-at="2024-01-17T11:28:10 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@113ee1ce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNameMethod -->
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.ninjademo.qa.tests.TestProductPage@303cf2ba]" started-at="2024-01-17T11:28:10 IST" name="OpenApp" finished-at="2024-01-17T11:28:21 IST" duration-ms="11102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="addproducttoCartTest()[pri:49, instance:com.ninjademo.qa.tests.TestProductPage@303cf2ba]" started-at="2024-01-17T11:28:21 IST" name="addproducttoCartTest" finished-at="2024-01-17T11:28:27 IST" duration-ms="5793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproducttoCartTest -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.ninjademo.qa.tests.TestProductPage@303cf2ba]" started-at="2024-01-17T11:28:27 IST" name="generateTestStatus" finished-at="2024-01-17T11:28:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ninjademo.qa.tests.TestProductPage.addproducttoCartTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=addproducttoCartTest status=SUCCESS method=TestProductPage.addproducttoCartTest()[pri:49, instance:com.ninjademo.qa.tests.TestProductPage@303cf2ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method is-config="true" signature="generateReports()[pri:0, instance:com.ninjademo.qa.tests.TestProductPage@303cf2ba]" started-at="2024-01-17T11:28:27 IST" name="generateReports" finished-at="2024-01-17T11:28:29 IST" duration-ms="2153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+      </class> <!-- com.ninjademo.qa.tests.TestProductPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
